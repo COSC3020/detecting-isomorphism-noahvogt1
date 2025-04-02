@@ -21,7 +21,8 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ time complexity of your algorithm?
 
 The worst-case big $\Theta$ time complexity of my algorithm should be $\Theta(|V|! * |V|^2)$
-This is because finding all permutations of array of size |V| is |V|!. Then we 
-create an empty matrix that will become our permuted matrix using one for loop
-which gives us |V|. Then we make the permuted graph using two for loops each of
-size |V| which is $|V|^2$. Checking that the matrices are equal also is $|V|^2$.
+This is because finding all permutations of array of size |V| is |V|!. We then 
+itterate through this. Then we create an empty matrix that will become our 
+permuted matrix using one for loop which gives us |V|. Then we make the permuted 
+graph using two for loops each of size |V| which is $|V|^2$. Checking that the 
+matrices are equal also is $|V|^2$.
