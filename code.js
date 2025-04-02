@@ -21,7 +21,7 @@ function matricesAreEqual(permutedGraph, graph2) {
     return true;
 }
 
-function checkGraphIsomorphism(graph1, graph2) {
+function are_isomorphic(graph1, graph2) {
     if (graph1.length != graph2.length) return false;
 
     let array = Array(graph1.length);
